@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="parallelc suite" duration-ms="176711" started-at="2020-12-11T10:57:03Z" finished-at="2020-12-11T10:59:59Z">
+    <groups>
+    </groups>
+    <test name="Smoke Test" duration-ms="176711" started-at="2020-12-11T10:57:03Z" finished-at="2020-12-11T10:59:59Z">
+      <class name="com.bits4Testing.test.ClientServerArchitecture">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.ClientServerArchitecture@2133c8f8]" name="setUp" is-config="true" duration-ms="3309" started-at="2020-12-11T16:29:53Z" finished-at="2020-12-11T16:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clientServerArchitecture()[pri:0, instance:com.bits4Testing.test.ClientServerArchitecture@2133c8f8]" name="clientServerArchitecture" duration-ms="1972" started-at="2020-12-11T16:29:56Z" finished-at="2020-12-11T16:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientServerArchitecture -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.ClientServerArchitecture@2133c8f8]" name="shutDown" is-config="true" duration-ms="878" started-at="2020-12-11T16:29:58Z" finished-at="2020-12-11T16:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.ClientServerArchitecture -->
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.APItestingUsingRESTAssured@2752f6e2]" name="setUp" is-config="true" duration-ms="3682" started-at="2020-12-11T16:27:59Z" finished-at="2020-12-11T16:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apitestingUsingRESTAssured()[pri:0, instance:com.bits4Testing.test.APItestingUsingRESTAssured@2752f6e2]" name="apitestingUsingRESTAssured" duration-ms="6030" started-at="2020-12-11T16:28:02Z" finished-at="2020-12-11T16:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apitestingUsingRESTAssured -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.APItestingUsingRESTAssured@2752f6e2]" name="shutDown" is-config="true" duration-ms="1098" started-at="2020-12-11T16:28:09Z" finished-at="2020-12-11T16:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.APItestingUsingRESTAssured -->
+      <class name="com.bits4Testing.test.ManualTesting">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.ManualTesting@27f674d]" name="setUp" is-config="true" duration-ms="4424" started-at="2020-12-11T16:29:00Z" finished-at="2020-12-11T16:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.ManualTesting@27f674d]" name="apiBasicTerminologies" duration-ms="5619" started-at="2020-12-11T16:29:04Z" finished-at="2020-12-11T16:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.ManualTesting@27f674d]" name="shutDown" is-config="true" duration-ms="993" started-at="2020-12-11T16:29:10Z" finished-at="2020-12-11T16:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.ManualTesting -->
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.DistributedVersionControlSystem@7c75222b]" name="setUp" is-config="true" duration-ms="4076" started-at="2020-12-11T16:28:43Z" finished-at="2020-12-11T16:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.DistributedVersionControlSystem@7c75222b]" name="apiBasicTerminologies" duration-ms="3420" started-at="2020-12-11T16:28:47Z" finished-at="2020-12-11T16:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.DistributedVersionControlSystem@7c75222b]" name="shutDown" is-config="true" duration-ms="1166" started-at="2020-12-11T16:28:51Z" finished-at="2020-12-11T16:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.DistributedVersionControlSystem -->
+      <class name="com.bits4Testing.test.APITesting">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.APITesting@6b71769e]" name="setUp" is-config="true" duration-ms="4457" started-at="2020-12-11T16:27:51Z" finished-at="2020-12-11T16:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiTesting()[pri:0, instance:com.bits4Testing.test.APITesting@6b71769e]" name="apiTesting" duration-ms="2382" started-at="2020-12-11T16:27:55Z" finished-at="2020-12-11T16:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTesting -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.APITesting@6b71769e]" name="shutDown" is-config="true" duration-ms="1033" started-at="2020-12-11T16:27:58Z" finished-at="2020-12-11T16:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.APITesting -->
+      <class name="com.bits4Testing.test.SDETDefinition">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.SDETDefinition@48140564]" name="setUp" is-config="true" duration-ms="3861" started-at="2020-12-11T16:29:18Z" finished-at="2020-12-11T16:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.SDETDefinition@48140564]" name="apiBasicTerminologies" duration-ms="3797" started-at="2020-12-11T16:29:22Z" finished-at="2020-12-11T16:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.SDETDefinition@48140564]" name="shutDown" is-config="true" duration-ms="2221" started-at="2020-12-11T16:29:26Z" finished-at="2020-12-11T16:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.SDETDefinition -->
+      <class name="com.bits4Testing.test.BugLifeCycle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.BugLifeCycle@1cd072a9]" name="setUp" is-config="true" duration-ms="18863" started-at="2020-12-11T16:28:18Z" finished-at="2020-12-11T16:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.BugLifeCycle@1cd072a9]" name="apiBasicTerminologies" duration-ms="4667" started-at="2020-12-11T16:28:37Z" finished-at="2020-12-11T16:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.BugLifeCycle@1cd072a9]" name="shutDown" is-config="true" duration-ms="1597" started-at="2020-12-11T16:28:42Z" finished-at="2020-12-11T16:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.BugLifeCycle -->
+      <class name="com.bits4Testing.test.RegressionTesting">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.RegressionTesting@1d251891]" name="setUp" is-config="true" duration-ms="4214" started-at="2020-12-11T16:29:11Z" finished-at="2020-12-11T16:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.RegressionTesting@1d251891]" name="apiBasicTerminologies" duration-ms="2479" started-at="2020-12-11T16:29:15Z" finished-at="2020-12-11T16:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.RegressionTesting@1d251891]" name="shutDown" is-config="true" duration-ms="923" started-at="2020-12-11T16:29:18Z" finished-at="2020-12-11T16:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.RegressionTesting -->
+      <class name="com.bits4Testing.test.GITgitHub">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.GITgitHub@4c203ea1]" name="setUp" is-config="true" duration-ms="4194" started-at="2020-12-11T16:28:52Z" finished-at="2020-12-11T16:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.GITgitHub@4c203ea1]" name="apiBasicTerminologies" duration-ms="2847" started-at="2020-12-11T16:28:56Z" finished-at="2020-12-11T16:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.GITgitHub@4c203ea1]" name="shutDown" is-config="true" duration-ms="859" started-at="2020-12-11T16:28:59Z" finished-at="2020-12-11T16:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.GITgitHub -->
+      <class name="com.bits4Testing.test.ApiBasicTerminologies">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.ApiBasicTerminologies@6bdf28bb]" name="setUp" is-config="true" duration-ms="4639" started-at="2020-12-11T16:27:35Z" finished-at="2020-12-11T16:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.ApiBasicTerminologies@6bdf28bb]" name="apiBasicTerminologies" duration-ms="9611" started-at="2020-12-11T16:27:39Z" finished-at="2020-12-11T16:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.ApiBasicTerminologies@6bdf28bb]" name="shutDown" is-config="true" duration-ms="1980" started-at="2020-12-11T16:27:49Z" finished-at="2020-12-11T16:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.ApiBasicTerminologies -->
+      <class name="com.bits4Testing.test.Functionaltesting">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.Functionaltesting@2d209079]" name="setUp" is-config="true" duration-ms="24240" started-at="2020-12-11T16:27:03Z" finished-at="2020-12-11T16:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="functionalResting()[pri:0, instance:com.bits4Testing.test.Functionaltesting@2d209079]" name="functionalResting" duration-ms="4906" started-at="2020-12-11T16:27:27Z" finished-at="2020-12-11T16:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalResting -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.Functionaltesting@2d209079]" name="shutDown" is-config="true" duration-ms="2911" started-at="2020-12-11T16:27:32Z" finished-at="2020-12-11T16:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.Functionaltesting -->
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle@58ceff1]" name="setUp" is-config="true" duration-ms="4817" started-at="2020-12-11T16:29:28Z" finished-at="2020-12-11T16:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle@58ceff1]" name="apiBasicTerminologies" duration-ms="2526" started-at="2020-12-11T16:29:33Z" finished-at="2020-12-11T16:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle@58ceff1]" name="shutDown" is-config="true" duration-ms="1383" started-at="2020-12-11T16:29:36Z" finished-at="2020-12-11T16:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle -->
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.STLCSoftwareTestingLifeCycle@7c30a502]" name="setUp" is-config="true" duration-ms="3579" started-at="2020-12-11T16:29:37Z" finished-at="2020-12-11T16:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.STLCSoftwareTestingLifeCycle@7c30a502]" name="apiBasicTerminologies" duration-ms="3253" started-at="2020-12-11T16:29:41Z" finished-at="2020-12-11T16:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.STLCSoftwareTestingLifeCycle@7c30a502]" name="shutDown" is-config="true" duration-ms="1362" started-at="2020-12-11T16:29:44Z" finished-at="2020-12-11T16:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.STLCSoftwareTestingLifeCycle -->
+      <class name="com.bits4Testing.test.AutomationTesting">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.AutomationTesting@e580929]" name="setUp" is-config="true" duration-ms="4223" started-at="2020-12-11T16:28:10Z" finished-at="2020-12-11T16:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.AutomationTesting@e580929]" name="apiBasicTerminologies" duration-ms="2936" started-at="2020-12-11T16:28:14Z" finished-at="2020-12-11T16:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.AutomationTesting@e580929]" name="shutDown" is-config="true" duration-ms="1326" started-at="2020-12-11T16:28:17Z" finished-at="2020-12-11T16:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.AutomationTesting -->
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bits4Testing.test.TypesofVersionControlSystem@49e4cb85]" name="setUp" is-config="true" duration-ms="3771" started-at="2020-12-11T16:29:45Z" finished-at="2020-12-11T16:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiBasicTerminologies()[pri:0, instance:com.bits4Testing.test.TypesofVersionControlSystem@49e4cb85]" name="apiBasicTerminologies" duration-ms="3231" started-at="2020-12-11T16:29:49Z" finished-at="2020-12-11T16:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBasicTerminologies -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.bits4Testing.test.TypesofVersionControlSystem@49e4cb85]" name="shutDown" is-config="true" duration-ms="906" started-at="2020-12-11T16:29:52Z" finished-at="2020-12-11T16:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.bits4Testing.test.TypesofVersionControlSystem -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- parallelc suite -->
+</testng-results>

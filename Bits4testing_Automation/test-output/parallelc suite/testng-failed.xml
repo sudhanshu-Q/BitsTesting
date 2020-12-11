@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [parallelc suite]">
+  <test name="Smoke Test">
+    <classes>
+      <class name="com.bits4Testing.test.Functionaltesting"/>
+      <class name="com.bits4Testing.test.ApiBasicTerminologies"/>
+      <class name="com.bits4Testing.test.APITesting"/>
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured"/>
+      <class name="com.bits4Testing.test.AutomationTesting"/>
+      <class name="com.bits4Testing.test.BugLifeCycle"/>
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem"/>
+      <class name="com.bits4Testing.test.GITgitHub"/>
+      <class name="com.bits4Testing.test.ManualTesting"/>
+      <class name="com.bits4Testing.test.RegressionTesting"/>
+      <class name="com.bits4Testing.test.SDETDefinition"/>
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle"/>
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle"/>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem"/>
+      <class name="com.bits4Testing.test.ClientServerArchitecture"/>
+      <class name="com.bits4Testing.test.Functionaltesting"/>
+      <class name="com.bits4Testing.test.ApiBasicTerminologies"/>
+      <class name="com.bits4Testing.test.APITesting"/>
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured"/>
+      <class name="com.bits4Testing.test.AutomationTesting"/>
+      <class name="com.bits4Testing.test.BugLifeCycle"/>
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem"/>
+      <class name="com.bits4Testing.test.GITgitHub"/>
+      <class name="com.bits4Testing.test.ManualTesting"/>
+      <class name="com.bits4Testing.test.RegressionTesting"/>
+      <class name="com.bits4Testing.test.SDETDefinition"/>
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle"/>
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle"/>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem"/>
+      <class name="com.bits4Testing.test.ClientServerArchitecture"/>
+      <class name="com.bits4Testing.test.Functionaltesting"/>
+      <class name="com.bits4Testing.test.ApiBasicTerminologies"/>
+      <class name="com.bits4Testing.test.APITesting"/>
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured"/>
+      <class name="com.bits4Testing.test.AutomationTesting"/>
+      <class name="com.bits4Testing.test.BugLifeCycle"/>
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem"/>
+      <class name="com.bits4Testing.test.GITgitHub"/>
+      <class name="com.bits4Testing.test.ManualTesting"/>
+      <class name="com.bits4Testing.test.RegressionTesting"/>
+      <class name="com.bits4Testing.test.SDETDefinition"/>
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle"/>
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle"/>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem"/>
+      <class name="com.bits4Testing.test.ClientServerArchitecture"/>
+    </classes>
+  </test> <!-- Smoke Test -->
+</suite> <!-- Failed suite [parallelc suite] -->

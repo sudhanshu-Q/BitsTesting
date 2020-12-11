@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="99" guice-stage="DEVELOPMENT" name="Failed suite [Bits4testing test suite]" parallel="tests">
+  <test thread-count="30" name=" Smoke Test" parallel="classes">
+    <classes>
+      <class name="com.bits4Testing.test.Functionaltesting"/>
+      <class name="com.bits4Testing.test.ApiBasicTerminologies"/>
+      <class name="com.bits4Testing.test.APITesting"/>
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured"/>
+      <class name="com.bits4Testing.test.AutomationTesting"/>
+      <class name="com.bits4Testing.test.BugLifeCycle"/>
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem"/>
+      <class name="com.bits4Testing.test.GITgitHub"/>
+      <class name="com.bits4Testing.test.ManualTesting"/>
+      <class name="com.bits4Testing.test.RegressionTesting"/>
+      <class name="com.bits4Testing.test.SDETDefinition"/>
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle"/>
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle"/>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem"/>
+    </classes>
+  </test> <!--  Smoke Test -->
+  <test thread-count="30" name=" Regression Test" parallel="classes">
+    <classes>
+      <class name="com.bits4Testing.test.Functionaltesting"/>
+      <class name="com.bits4Testing.test.ApiBasicTerminologies"/>
+      <class name="com.bits4Testing.test.APITesting"/>
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured"/>
+      <class name="com.bits4Testing.test.AutomationTesting"/>
+      <class name="com.bits4Testing.test.BugLifeCycle"/>
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem"/>
+      <class name="com.bits4Testing.test.GITgitHub"/>
+      <class name="com.bits4Testing.test.ManualTesting"/>
+      <class name="com.bits4Testing.test.RegressionTesting"/>
+      <class name="com.bits4Testing.test.SDETDefinition"/>
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle"/>
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle"/>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem"/>
+    </classes>
+  </test> <!--  Regression Test -->
+  <test thread-count="30" name=" Sanity Test" parallel="classes">
+    <classes>
+      <class name="com.bits4Testing.test.Functionaltesting"/>
+      <class name="com.bits4Testing.test.ApiBasicTerminologies"/>
+      <class name="com.bits4Testing.test.APITesting"/>
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured"/>
+      <class name="com.bits4Testing.test.AutomationTesting"/>
+      <class name="com.bits4Testing.test.BugLifeCycle"/>
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem"/>
+      <class name="com.bits4Testing.test.GITgitHub"/>
+      <class name="com.bits4Testing.test.ManualTesting"/>
+      <class name="com.bits4Testing.test.RegressionTesting"/>
+      <class name="com.bits4Testing.test.SDETDefinition"/>
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle"/>
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle"/>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem"/>
+    </classes>
+  </test> <!--  Sanity Test -->
+  <test name=" Sanity Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.TypesofVersionControlSystem -->
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.STLCSoftwareTestingLifeCycle -->
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured">
+        <methods>
+          <include name="apitestingUsingRESTAssured"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.APItestingUsingRESTAssured -->
+      <class name="com.bits4Testing.test.ManualTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.ManualTesting -->
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.DistributedVersionControlSystem -->
+      <class name="com.bits4Testing.test.SDETDefinition">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.SDETDefinition -->
+      <class name="com.bits4Testing.test.AutomationTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.AutomationTesting -->
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle -->
+      <class name="com.bits4Testing.test.RegressionTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.RegressionTesting -->
+      <class name="com.bits4Testing.test.GITgitHub">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.GITgitHub -->
+      <class name="com.bits4Testing.test.Functionaltesting">
+        <methods>
+          <include name="functionalResting"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.Functionaltesting -->
+      <class name="com.bits4Testing.test.APITesting">
+        <methods>
+          <include name="apiTesting"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.APITesting -->
+      <class name="com.bits4Testing.test.BugLifeCycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.BugLifeCycle -->
+      <class name="com.bits4Testing.test.ApiBasicTerminologies">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.ApiBasicTerminologies -->
+    </classes>
+  </test> <!--  Sanity Test(failed) -->
+  <test name=" Regression Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.TypesofVersionControlSystem -->
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.STLCSoftwareTestingLifeCycle -->
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured">
+        <methods>
+          <include name="apitestingUsingRESTAssured"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.APItestingUsingRESTAssured -->
+      <class name="com.bits4Testing.test.ManualTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.ManualTesting -->
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.DistributedVersionControlSystem -->
+      <class name="com.bits4Testing.test.SDETDefinition">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.SDETDefinition -->
+      <class name="com.bits4Testing.test.AutomationTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.AutomationTesting -->
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle -->
+      <class name="com.bits4Testing.test.RegressionTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.RegressionTesting -->
+      <class name="com.bits4Testing.test.GITgitHub">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.GITgitHub -->
+      <class name="com.bits4Testing.test.Functionaltesting">
+        <methods>
+          <include name="functionalResting"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.Functionaltesting -->
+      <class name="com.bits4Testing.test.APITesting">
+        <methods>
+          <include name="apiTesting"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.APITesting -->
+      <class name="com.bits4Testing.test.BugLifeCycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.BugLifeCycle -->
+      <class name="com.bits4Testing.test.ApiBasicTerminologies">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.ApiBasicTerminologies -->
+    </classes>
+  </test> <!--  Regression Test(failed) -->
+  <test name=" Smoke Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.bits4Testing.test.TypesofVersionControlSystem">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.TypesofVersionControlSystem -->
+      <class name="com.bits4Testing.test.STLCSoftwareTestingLifeCycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.STLCSoftwareTestingLifeCycle -->
+      <class name="com.bits4Testing.test.APItestingUsingRESTAssured">
+        <methods>
+          <include name="apitestingUsingRESTAssured"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.APItestingUsingRESTAssured -->
+      <class name="com.bits4Testing.test.ManualTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.ManualTesting -->
+      <class name="com.bits4Testing.test.DistributedVersionControlSystem">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.DistributedVersionControlSystem -->
+      <class name="com.bits4Testing.test.SDETDefinition">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.SDETDefinition -->
+      <class name="com.bits4Testing.test.AutomationTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.AutomationTesting -->
+      <class name="com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle -->
+      <class name="com.bits4Testing.test.RegressionTesting">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.RegressionTesting -->
+      <class name="com.bits4Testing.test.GITgitHub">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.GITgitHub -->
+      <class name="com.bits4Testing.test.Functionaltesting">
+        <methods>
+          <include name="functionalResting"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.Functionaltesting -->
+      <class name="com.bits4Testing.test.APITesting">
+        <methods>
+          <include name="apiTesting"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.APITesting -->
+      <class name="com.bits4Testing.test.BugLifeCycle">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.BugLifeCycle -->
+      <class name="com.bits4Testing.test.ApiBasicTerminologies">
+        <methods>
+          <include name="apiBasicTerminologies"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bits4Testing.test.ApiBasicTerminologies -->
+    </classes>
+  </test> <!--  Smoke Test(failed) -->
+</suite> <!-- Failed suite [Bits4testing test suite] -->

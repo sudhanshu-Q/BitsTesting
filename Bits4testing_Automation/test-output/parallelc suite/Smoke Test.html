@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Smoke Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 11 16:27:03 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>176 seconds (176711 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bits4Testing.test.ApiBasicTerminologies.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.ApiBasicTerminologies</td>
+<td></td>
+<td>9</td>
+<td>com.bits4Testing.test.ApiBasicTerminologies@6bdf28bb</td></tr>
+<tr>
+<td title='com.bits4Testing.test.AutomationTesting.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.AutomationTesting</td>
+<td></td>
+<td>2</td>
+<td>com.bits4Testing.test.AutomationTesting@e580929</td></tr>
+<tr>
+<td title='com.bits4Testing.test.BugLifeCycle.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.BugLifeCycle</td>
+<td></td>
+<td>4</td>
+<td>com.bits4Testing.test.BugLifeCycle@1cd072a9</td></tr>
+<tr>
+<td title='com.bits4Testing.test.DistributedVersionControlSystem.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.DistributedVersionControlSystem</td>
+<td></td>
+<td>3</td>
+<td>com.bits4Testing.test.DistributedVersionControlSystem@7c75222b</td></tr>
+<tr>
+<td title='com.bits4Testing.test.GITgitHub.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.GITgitHub</td>
+<td></td>
+<td>2</td>
+<td>com.bits4Testing.test.GITgitHub@4c203ea1</td></tr>
+<tr>
+<td title='com.bits4Testing.test.ManualTesting.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.ManualTesting</td>
+<td></td>
+<td>5</td>
+<td>com.bits4Testing.test.ManualTesting@27f674d</td></tr>
+<tr>
+<td title='com.bits4Testing.test.RegressionTesting.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.RegressionTesting</td>
+<td></td>
+<td>2</td>
+<td>com.bits4Testing.test.RegressionTesting@1d251891</td></tr>
+<tr>
+<td title='com.bits4Testing.test.SDETDefinition.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.SDETDefinition</td>
+<td></td>
+<td>3</td>
+<td>com.bits4Testing.test.SDETDefinition@48140564</td></tr>
+<tr>
+<td title='com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle</td>
+<td></td>
+<td>2</td>
+<td>com.bits4Testing.test.SDLCSoftwaredevelopmentlifecycle@58ceff1</td></tr>
+<tr>
+<td title='com.bits4Testing.test.STLCSoftwareTestingLifeCycle.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.STLCSoftwareTestingLifeCycle</td>
+<td></td>
+<td>3</td>
+<td>com.bits4Testing.test.STLCSoftwareTestingLifeCycle@7c30a502</td></tr>
+<tr>
+<td title='com.bits4Testing.test.TypesofVersionControlSystem.apiBasicTerminologies()'><b>apiBasicTerminologies</b><br>Test class: com.bits4Testing.test.TypesofVersionControlSystem</td>
+<td></td>
+<td>3</td>
+<td>com.bits4Testing.test.TypesofVersionControlSystem@49e4cb85</td></tr>
+<tr>
+<td title='com.bits4Testing.test.APITesting.apiTesting()'><b>apiTesting</b><br>Test class: com.bits4Testing.test.APITesting</td>
+<td></td>
+<td>2</td>
+<td>com.bits4Testing.test.APITesting@6b71769e</td></tr>
+<tr>
+<td title='com.bits4Testing.test.APItestingUsingRESTAssured.apitestingUsingRESTAssured()'><b>apitestingUsingRESTAssured</b><br>Test class: com.bits4Testing.test.APItestingUsingRESTAssured</td>
+<td></td>
+<td>6</td>
+<td>com.bits4Testing.test.APItestingUsingRESTAssured@2752f6e2</td></tr>
+<tr>
+<td title='com.bits4Testing.test.ClientServerArchitecture.clientServerArchitecture()'><b>clientServerArchitecture</b><br>Test class: com.bits4Testing.test.ClientServerArchitecture</td>
+<td></td>
+<td>1</td>
+<td>com.bits4Testing.test.ClientServerArchitecture@2133c8f8</td></tr>
+<tr>
+<td title='com.bits4Testing.test.Functionaltesting.functionalResting()'><b>functionalResting</b><br>Test class: com.bits4Testing.test.Functionaltesting</td>
+<td></td>
+<td>4</td>
+<td>com.bits4Testing.test.Functionaltesting@2d209079</td></tr>
+</table><p>
+</body>
+</html>
